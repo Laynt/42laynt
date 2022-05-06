@@ -6,14 +6,16 @@
 #    By: alvtorre <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/25 22:42:37 by alvtorre          #+#    #+#              #
-#    Updated: 2022/04/25 23:04:16 by alvtorre         ###   ########.fr        #
+#    Updated: 2022/05/06 17:09:56 by alvtorre         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= libft.a 
 
-SRCS	= ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c \
-		ft_isprint.c ft_strlen.c 
+SRCS	= ft_isalpha.c ft_isdigit.c ft_isalanum ft_isascii ft_isprint.c \
+		  ft_strlen.c ft_memset.c ft_bzero.c ft_toupper.c ft_tolower.c \
+		  ft_strchr.c ft_strrchr strncmp.c ft_memchr.c ft_memcmp.c \
+		  ft_strnstr.c   
 
 OBJS	=	${SRCS:.c=.o}
 
