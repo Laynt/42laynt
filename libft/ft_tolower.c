@@ -6,11 +6,11 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/27 21:40:21 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/11 19:45:34 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/11 21:45:27 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_toupper(int c)
+int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		c += 32;
