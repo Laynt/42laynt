@@ -6,13 +6,13 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 18:38:36 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/28 18:38:39 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/11 19:44:19 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	 ft_isascii(int c)
+int	ft_isascii(int c)
 {
-	if (c >= 0 && c<= 127)
+	if (c >= 0 && c <= 127)
 		return (1);
 	return (0);
 }

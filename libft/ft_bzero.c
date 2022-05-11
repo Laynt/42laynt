@@ -6,12 +6,13 @@
 /*   By: alvtorre <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/27 20:55:26 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/27 20:55:35 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/11 19:49:51 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-void	*ft_bzero (void *s, size_t n)
+
+void	*ft_bzero(void *s, size_t n)
 {
 	unsigned char	*ptr;
 

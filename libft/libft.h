@@ -6,7 +6,7 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 21:54:01 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/28 20:52:03 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/11 19:33:54 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,12 @@ int		ft_isprint(int c);
 size_t	ft_strlen(const char *str);
 void	*ft_memset(void *s, int c, size_t n);
 
-int     ft_toupper(int c);
-int     ft_tolower(int c);
-char    *ft_strchr(const char *str, int c);
+int		ft_toupper(int c);
+int		ft_tolower(int c);
+char	*ft_strchr(const char *str, int c);
 char	*ft_strrchr(const char *str, int c);
-int	    ft_strncmp(const char *s1, const char *s2, size_t n);
-void    *ft_memchr(const void *str, int c, size_t n);
-int     *ft_memcmp(const void *s1, const void *s2, size_t n);
-char    *strnstr(const char *haystack, const char *needle, size_t len);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
+void	*ft_memchr(const void *str, int c, size_t n);
+int		*ft_memcmp(const void *s1, const void *s2, size_t n);
+char	*strnstr(const char *haystack, const char *needle, size_t len);
 #endif
