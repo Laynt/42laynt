@@ -1,32 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/27 20:57:26 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/12 19:10:04 by alvtorre         ###   ########.fr       */
+/*   Created: 2022/05/12 19:03:18 by alvtorre          #+#    #+#             */
+/*   Updated: 2022/05/12 19:07:08 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *str1, const void *str2, size_t n)
+void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	unsigned int		i;
-	unsigned char		*dest;
-	unsigned const char	*str;
+	unsigned char	*d;
+	unsigned char	*s;
 
-	if (str1 == NULL && str2 == NULL)
-		return (NULL);
-	i = 0;
-	dest = (unsigned char *)str1;
-	str = (unsigned char *)str2;
-	while (i < n)
+	d = (unsigned char *)dest;
+	s = (unsigned char *)src;
+	if (n == 0 || dest == src)
+		return (dest);
+	if (d > s)
 	{
-		*((char *)dest + i) = *((char *)str + i);
-		i++;
+		while (n-- > 0)
+		{
+			d[n] = s[n];
+		}
 	}
+	else if (d < s)
+		ft_memcpy(dest, src, n);
 	return (dest);
 }
