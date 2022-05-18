@@ -6,7 +6,7 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 19:37:02 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/16 20:06:04 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/18 21:03:55 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,6 @@ static int	count_words(const char *str, char c)
 	}
 	return (i);
 }
-
-
 
 static char	*word_dup(const char *str, int start, int finish)
 {
