@@ -6,9 +6,12 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 19:23:09 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/11 19:49:02 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:45:15 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Returns a pointer to the byte located, or NULL if no such byte exists
+// within n bytes.
 
 #include "libft.h"
 

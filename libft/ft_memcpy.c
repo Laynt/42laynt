@@ -6,9 +6,11 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/27 20:57:26 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/12 19:10:04 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:36:11 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Copies n bytes from memory area str1 to memory area str2.
 
 #include "libft.h"
 

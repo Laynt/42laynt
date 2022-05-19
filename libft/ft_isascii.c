@@ -6,9 +6,11 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 18:38:36 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/11 19:44:19 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:31:36 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Tests for an ASCII character
 
 int	ft_isascii(int c)
 {

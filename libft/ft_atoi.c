@@ -6,9 +6,12 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 20:58:36 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/12 21:10:31 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:48:11 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Converts the initial portion of the string pointed to by str 
+// to int representation.
 
 #include "libft.h"
 

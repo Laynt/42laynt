@@ -6,13 +6,13 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 19:37:02 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/18 21:03:55 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 21:17:19 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Returns the position of the coincidence
+// Returns substrings of the string 's' using the character 'c' as delimiter
 
 static int	count_words(const char *str, char c)
 {

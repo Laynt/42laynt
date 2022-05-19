@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvtorre <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 21:23:24 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/25 21:18:14 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:32:24 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Tests if the data given is a number or a letter
 
 #include "libft.h"
 

@@ -6,9 +6,11 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 19:03:18 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/12 19:07:08 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:36:55 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Copies len bytes from string src to string dest.
 
 #include "libft.h"
 

@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvtorre <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 21:25:39 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/25 21:18:31 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:32:31 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Tests if the given number is a digit
 
 int	ft_isdigit(int c)
 {

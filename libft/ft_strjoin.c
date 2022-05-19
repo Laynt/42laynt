@@ -6,9 +6,12 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 19:11:43 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/16 19:17:13 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 21:05:47 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Save memory with malloc and returns a new string based on the concadenation
+// of s1 and s2
 
 #include "libft.h"
 

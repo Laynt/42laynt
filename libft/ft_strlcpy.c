@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvtorre <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 19:17:51 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/12 19:17:57 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:38:00 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Copy and concatenate strings with the same input parameters and output result
+// as snprintf(3).
 
 #include "libft.h"
 

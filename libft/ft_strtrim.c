@@ -6,9 +6,12 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 19:24:23 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/16 19:31:15 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 21:09:28 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Delete all characters of the string 'set' from the begining to the end of
+// 's1' till find a character not from 'set'
 
 #include "libft.h"
 

@@ -6,9 +6,11 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 21:48:18 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/27 22:17:59 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:33:00 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Computes the length of the string s.
 
 #include "libft.h"
 

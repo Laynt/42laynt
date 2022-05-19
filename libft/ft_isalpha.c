@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvtorre <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 21:13:47 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/25 21:14:57 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:32:27 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Tests for any character for which isupper(3) or islower(3) is true
 
 int	ft_isalpha(int c)
 {

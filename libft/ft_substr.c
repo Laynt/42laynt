@@ -6,9 +6,12 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 18:54:39 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/16 19:35:55 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 21:04:01 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Returns the substring of s. The substring start on 'start' and has a max
+// length of 'len'
 
 #include "libft.h"
 

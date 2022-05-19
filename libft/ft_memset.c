@@ -6,9 +6,11 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/25 21:20:25 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/28 20:45:28 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:33:30 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Writes len bytes of value c (converted to an unsigned char) to the string b.
 
 #include "libft.h"
 

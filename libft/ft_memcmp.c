@@ -6,9 +6,12 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 20:06:21 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/11 21:31:17 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:45:47 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Returns zero if the two strings are identical, otherwise returns
+// the difference between the first two differing bytes
 
 #include "libft.h"
 

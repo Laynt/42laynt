@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvtorre <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 21:34:04 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/04/25 21:13:58 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/19 19:32:20 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Tests for any printing character, including space (` ').
 
 int	ft_isprint(int c)
 {
