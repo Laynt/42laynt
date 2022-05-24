@@ -6,7 +6,7 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 20:58:36 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/19 19:48:11 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/24 20:07:43 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,29 +17,29 @@
 
 int	ft_atoi(const char *nptr)
 {
-	long	i;
-	long	mult;
-	long	number;
+	int			i;
+	int			sign;
+	long long	n;
 
 	i = 0;
-	mult = 1;
-	number = 0;
-	if (nptr[0] == '\0')
-		return (i);
-	while (nptr[i] == ' ' || nptr[i] == '\t' || nptr[i] == '\f' || \
-			nptr[i] == '\r' || nptr[i] == '\n' || nptr[i] == '\v')
+	sign = 1;
+	n = 0;
+	while (nptr[i] == ' ' || nptr[i] == '\n' || nptr[i] == '\t' || \
+			nptr[i] == '\v' || nptr[i] == '\f' || nptr[i] == '\r')
 		i++;
+	if (nptr[i] == '-')
+		sign *= -1;
 	if (nptr[i] == '-' || nptr[i] == '+')
-	{
-		if (nptr[i] == '-')
-			mult *= -1;
 		i++;
-	}
 	while (nptr[i] && nptr[i] >= '0' && nptr[i] <= '9')
 	{
-		number = number * 10 + (nptr[i] - 48);
+		if (n * sign > 2147483647)
+			return (-1);
+		else if (n * sign < -2147483648)
+			return (0);
+		else
+			n = n * 10 + (nptr[i] - '0');
 		i++;
 	}
-	number *= mult;
-	return (number);
+	return (n * sign);
 }
