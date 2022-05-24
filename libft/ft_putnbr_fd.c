@@ -6,7 +6,7 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/18 22:02:30 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/18 22:16:58 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/24 21:28:01 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	ft_putnbr_fd(int n, int fd)
 			ft_putchar_fd('-', fd);
 			n = n * -1;
 		}
-		if (n >= 9)
+		if (n > 9)
 		{
 			ft_putnbr_fd(n / 10, fd);
 		}

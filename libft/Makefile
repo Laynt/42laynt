@@ -6,7 +6,7 @@
 #    By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/25 22:42:37 by alvtorre          #+#    #+#              #
-#    Updated: 2022/05/18 22:12:18 by alvtorre         ###   ########.fr        #
+#    Updated: 2022/05/24 21:16:39 by alvtorre         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,8 +48,6 @@ fclean:		clean
 # Rule to re-make everything.
 re:			fclean all
 
-bonus:		${OBJS} ${BONUS_OBJS}
-			ar crs ${NAME} ${OBJS} ${BONUS_OBJS}
 
 # Makes sure that gnu make will still run even if files called
 # clean / fclean / all and re already exist in the directory
