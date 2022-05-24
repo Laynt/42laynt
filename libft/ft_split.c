@@ -6,7 +6,7 @@
 /*   By: alvtorre <alvtorre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 19:37:02 by alvtorre          #+#    #+#             */
-/*   Updated: 2022/05/19 21:17:19 by alvtorre         ###   ########.fr       */
+/*   Updated: 2022/05/24 20:13:06 by alvtorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,8 @@ char	**ft_split(char const *s, char c)
 	int		index;
 	char	**split;
 
-	if (!s || !(split = malloc((count_words(s, c) + 1) * sizeof(char *))))
+	split = malloc((count_words(s, c) + 1) * sizeof(char *));
+	if (!s || !(split))
 		return (0);
 	i = 0;
 	j = 0;
